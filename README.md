@@ -1,6 +1,6 @@
 jQuery-ui-pic creates simple classes for jQuery UI icons.
 
-They mirror the ```ui-icon``` classes but are simpler and can be used without additional jQuery UI stylesheets.
+They mirror the jQuery UI ```ui-icon``` classes but are simpler and can be used without additional jQuery UI stylesheets.
 
 ### Installation
 
