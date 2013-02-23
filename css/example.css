@@ -1,0 +1,18 @@
+body { font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	color: #333; text-align:center; }
+
+.cont { width:960px; margin:0 auto; text-align:left; }
+h1 { padding:10px 0; }
+
+#icons { list-style:none; margin:0; padding:0; }
+#icons > li { margin:0 10px 10px 0; padding:0; display:inline-block; width:200px; }
+#icons > li > span { width1:24px; display:inline-block; padding:0 10px 0 5px;
+	text-align:center; line-height:22px; cursor:pointer; border:1px solid #d3d3d3;
+	border-radius:4px;
+	background:#e6e6e6; }
+#icons  > li > span:hover { color:#2e83ff; }
+#icons  > li > span:hover i { background-image: url("../img/ui-icons_2e83ff_256x240.png"); }
+
+@media (max-width: 960px) {
+	.cont { width:90%; }
+}
