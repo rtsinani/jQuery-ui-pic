@@ -2,9 +2,14 @@ body { font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial,
 	color: #333; text-align:center; }
 
 .cont { width:960px; margin:0 auto; text-align:left; }
-h1 { padding:10px 0; }
+.footer { margin-bottom:100px; }
 
-#icons { list-style:none; margin:0; padding:0; }
+h1 { padding:10px 0; }
+h1 a { float:right; display:inline-block; margin-right:100px; font-size:12px; text-decoration:none; color:#eee;
+	padding:4px 16px; background:#0370fa; font-weight:normal;
+	border-radius:14px; }
+
+#icons { list-style:none; margin:0 0 20px 0; padding:0; }
 #icons > li { margin:0 10px 10px 0; padding:0; display:inline-block; width:200px; }
 #icons > li > span { width1:24px; display:inline-block; padding:0 10px 0 5px;
 	text-align:center; line-height:22px; cursor:pointer; border:1px solid #d3d3d3;
